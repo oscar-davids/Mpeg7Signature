@@ -34,7 +34,7 @@ func main() {
 		return flist
 	}
 
-    flist1 := getfilelist(path1)
+        flist1 := getfilelist(path1)
 	flist2 := getfilelist(path2)
 	totalcount := len(flist1)
 	counttrue := 0
